@@ -1,0 +1,22 @@
+def add(x, y):
+    return x + y
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    return x / y
+
+print("Calculadora")
+print("Operaciones disponibles:")
+print("1. Suma")
+print("2. Resta")
+print("3. Multiplicación")
+print("4. División")
+
+choice = input("Ingresa el número de la operación que deseas realizar: ")
+
+num1 = float(input("Ingresa el primer número: "))
+num2 = float(input("Ingresa el segundo número: "))
